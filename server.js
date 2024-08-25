@@ -1,11 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-app.use(cors());
+
 
 const app = express();
 app.use(bodyParser.json());
-
+app.use(cors());
 const userId = "Rohan_Nayan_12022003"; 
 const email = "rohan.nayan2021@vitstudent.ac.in";
 const rollNumber = "21BCI0040";
