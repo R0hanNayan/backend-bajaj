@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 
-const userId = "Rohan_Nayan_12022003"; // Replace with actual name and DOB if required
+const userId = "Rohan_Nayan_12022003"; 
 const email = "rohan.nayan2021@vitstudent.ac.in";
 const rollNumber = "21BCI0040";
 
@@ -53,7 +53,6 @@ app.get('/bfhl', (req, res) => {
     });
 });
 
-// Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
